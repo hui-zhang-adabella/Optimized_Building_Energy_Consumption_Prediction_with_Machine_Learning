@@ -67,4 +67,4 @@ We extend our gratitude to our mentors and fellow researchers who contributed to
 
 ## Questions and Collaboration 🤝
 
-For inquiries or collaboration opportunities, please contact at [puneetpahadia@gmail.com](mailto:puneetpahadia@gmail.com).
+For inquiries or collaboration opportunities, please contact at [puneetpahadia@gmail.com](mailto:2021psm5643@mnit.ac.in).
