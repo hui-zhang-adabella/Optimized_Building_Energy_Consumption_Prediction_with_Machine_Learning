@@ -16,13 +16,27 @@ The result? A significant boost in the ensemble prediction performance, thanks t
 
 The outcome of this comprehensive comparison underscores the prowess of HBO in enhancing the predictive accuracy of the stacked ensemble model.
 
-## Key Highlights 🚀
+## Challenges Faced 🤔
 
-- Precise building energy consumption prediction.
-- Utilization of ensemble techniques, including stacking.
-- Cutting-edge Heap-Based Optimization (HBO) algorithm.
-- Validation with multiple datasets.
-- Significant enhancement in predictive accuracy.
+- **Data Quality and Availability**: Dealing with large-scale energy data can be challenging due to data quality issues, missing values, and the need for real-time data, which may not always be readily available.
+
+- **Algorithm Selection**: Choosing the right machine learning algorithms and ensemble techniques can be tricky. Experimentation and tuning were required to find the most suitable approach.
+
+- **Optimization Complexity**: Implementing Heap-Based Optimization (HBO) introduced complexity to the model training process. Debugging and fine-tuning the HBO algorithm posed challenges.
+
+- **Resource Constraints**: Running complex machine learning models and optimization algorithms may require significant computational resources, which can be a limiting factor.
+
+## Future Scope 🚀
+
+- **Real-Time Prediction**: Enhance the system to support real-time energy consumption prediction, allowing for dynamic adjustments in energy distribution.
+
+- **Integration with IoT**: Explore the integration of Internet of Things (IoT) sensors and data to improve the accuracy of predictions by incorporating real-time environmental data.
+
+- **User-Friendly Interface**: Develop a user-friendly interface or dashboard for energy managers and building operators to interact with the prediction system.
+
+- **Energy Conservation Strategies**: Investigate the use of predicted consumption data for implementing energy conservation and demand response strategies.
+
+- **Scaling and Deployment**: Optimize the model for scalability and deployment in diverse building and energy management scenarios.
 
 ## Presentation 📈
 
