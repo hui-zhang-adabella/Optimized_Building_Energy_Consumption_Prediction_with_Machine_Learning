@@ -4,6 +4,18 @@ The energy sector is one of the largest and most important sectors out there. Th
 
 ![Building Energy Consumption](https://github.com/dataclergy/Forecasting-Hourly-Energy-Consumption-with-Python/assets/97096168/7cd44af6-b27b-4fb6-a305-56d6873adb8c)
 
+## Repository Structure 📂
+
+- **Data**: This directory contains data-related files.
+  - [Data.md](Data/Data.md): Documentation and description of the data used in the project.
+
+- **Presentation and Thesis**: This directory contains presentation and thesis files.
+  - [Presentation.pdf](Presentation%20and%20Thesis/Presentation.pdf): Presentation slides with project insights.
+  - [THESIS.pdf](Presentation%20and%20Thesis/THESIS.pdf): Research thesis document.
+
+- **Python File**: This directory contains the Jupyter Notebook file for data preprocessing and modeling.
+  - [Data Preprocessing and Modelling.ipynb](Python%20File/Data%20Preprocessing%20and%20Modelling.ipynb): Jupyter Notebook with data preprocessing and modeling code.
+
 ## Overview 🌐
 
 In the realm of Energy Management Systems (EMS), data is king. With vast datasets at your fingertips, you can unlock the potential of machine learning for accurate power consumption forecasting. In recent years, ensemble techniques have emerged as the champions of time-series prediction and forecasting. Among these techniques, stacking stands tall as a highly effective approach.
