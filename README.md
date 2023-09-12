@@ -1,8 +1,35 @@
 # 🏢 Optimized Building Energy Consumption Prediction with ML 📊
 
-The energy sector is one of the largest and most important sectors out there. The ability to efficiently forecast hourly energy consumption plays an important role on how energy is distributed and consumed. Harness the power of data and cutting-edge machine learning techniques to predict building energy consumption with precision.
+This work aimed to create an accurate energy consumption forecasting framework to promote sustainable building energy use. For accuracy, it evaluated various algorithms like ERT, RR, GBT, RF, ANN, and SVM and introduced an ensemble method and the HBO-Ensemble algorithm to improve predictions. Results showed RR, ERT, and GBoosting were the best individual algorithms, and the ensemble model improved results. The HBO-Ensemble algorithm outperformed all, enhancing prediction accuracy significantly. These findings have implications for energy management and efficiency strategies in buildings. Future research should expand datasets, consider more features, and explore other optimization techniques while also assessing generalizability across different regions and building types.
 
-![Building Energy Consumption](https://github.com/dataclergy/Forecasting-Hourly-Energy-Consumption-with-Python/assets/97096168/7cd44af6-b27b-4fb6-a305-56d6873adb8c)
+## Project Details 🚧
+
+This project harnesses the power of data and cutting-edge machine learning techniques to predict building energy consumption accurately. It is a crucial aspect of energy management systems (EMS) and plays a pivotal role in optimizing energy distribution and consumption.
+
+The project aims to:
+
+- Characterize the typical load profile of buildings to gain insights into energy consumption patterns.
+
+- Utilize various machine learning models to accurately forecast energy consumption.
+
+- Optimize the hyperparameters of machine learning models using Heap-Based Optimization (HBO) to enhance predictive performance.
+
+## Data Sources
+
+The project relies on electrical and climatic datasets obtained from the PGEN database. These datasets provide the necessary historical information to train and evaluate the machine learning models.
+
+## Methodology
+<img align="right" alt="Coding" width="400" height="800" src="https://github.com/puneetpahadia-da/Instahyre-jobanalytics/assets/97096168/3e731f5e-85be-4b2f-b651-56def6d5c637">
+
+The project follows a structured methodology:
+
+1. **Data Exploration and Preprocessing**: The project begins with the exploration and preprocessing of the data. This step involves handling data quality issues, missing values, and preparing the data for modeling.
+
+2. **Machine Learning Models**: Multiple machine learning algorithms are employed, including Extremely Randomized Trees, Random Forest, Gradient Tree Boosting, and others, to build predictive models. These models are trained and evaluated using the historical data.
+
+3. **Ensemble Techniques**: Ensemble techniques, particularly Stacked Ensemble, are used to combine the strengths of individual algorithms. The ensemble model is compared with individual models to assess its performance.
+
+4. **Hyperparameter Optimization**: Heap-Based Optimization (HBO) is applied to fine-tune the hyperparameters of the machine learning models. This optimization technique significantly improves the accuracy of energy consumption predictions.
 
 ## Repository Structure 📂
 
@@ -16,17 +43,24 @@ The energy sector is one of the largest and most important sectors out there. Th
 - **Python File**: This directory contains the Jupyter Notebook file for data preprocessing and modeling.
   - [Data Preprocessing and Modelling.ipynb](Python%20File/Data%20Preprocessing%20and%20Modelling.ipynb): Jupyter Notebook with data preprocessing and modeling code.
 
-## Overview 🌐
+## Key Findings 📊
 
-In the realm of Energy Management Systems (EMS), data is king. With vast datasets at your fingertips, you can unlock the potential of machine learning for accurate power consumption forecasting. In recent years, ensemble techniques have emerged as the champions of time-series prediction and forecasting. Among these techniques, stacking stands tall as a highly effective approach.
+The research yielded several key findings:
 
-In this groundbreaking research, we employ Stacked Ensemble to predict building energy consumption. Our data? Electrical and climatic datasets from the PGEN database. But that's not all. We take it a step further by utilizing the latest metaheuristic optimization algorithm known as Heap-Based Optimization (HBO) to train the ensemble model and optimize its parameters.
+- The ensemble model demonstrated improved results compared to the individual algorithms, achieving a lower MAPE, RMSE, and Percentual.
+- The proposed Heap-Based Optimization-Ensemble (HBO-Ensemble) algorithm outperformed all other approaches, including the ensemble model, by yielding the lowest MAPE, RMSE, and Percentual values.
+![image](https://github.com/puneetpahadia-da/Instahyre-jobanalytics/assets/97096168/0efe1f69-8e18-4770-9fcf-ca707a4073bb)
 
-HBO isn't your run-of-the-mill optimization algorithm. It's a cutting-edge approach inspired by human behavior, designed to tackle complex engineering and optimization problems. This approach leverages the hierarchical structure of corporate ranks to solve intricate challenges.
+- The novel optimization technique used in the HBO-Ensemble algorithm significantly enhanced the accuracy of energy consumption predictions.
+![Picture2](https://github.com/puneetpahadia-da/Instahyre-jobanalytics/assets/97096168/873a3bec-8694-4de2-abcf-e998e0ab9e81)
 
-The result? A significant boost in the ensemble prediction performance, thanks to the power of HBO. To validate our HBO-Ensemble, we put it to the test with two diverse datasets. We didn't stop there. We also evaluated numerous optimized models employing a variety of optimization algorithms, alongside several other refined models.
+- Ensemble methods, including the HBO-Ensemble algorithm, have the potential to achieve improved prediction accuracy.
 
-The outcome of this comprehensive comparison underscores the prowess of HBO in enhancing the predictive accuracy of the stacked ensemble model.
+- The findings of this study are essential for informing decision-making processes related to energy management and facilitating the development of energy-efficient strategies for buildings.
+
+## Presentation 📈
+
+Discover the insights and results of our research in our presentation slides: [Building_Energy_Prediction.pdf](https://github.com/dataclergy/Forecasting-Hourly-Energy-Consumption-with-Python/files/12541980/bems.pdf)
 
 ## Challenges Faced 🤔
 
@@ -37,6 +71,26 @@ The outcome of this comprehensive comparison underscores the prowess of HBO in e
 - **Optimization Complexity**: Implementing Heap-Based Optimization (HBO) introduced complexity to the model training process. Debugging and fine-tuning the HBO algorithm posed challenges.
 
 - **Resource Constraints**: Running complex machine learning models and optimization algorithms may require significant computational resources, which can be a limiting factor.
+
+## Conclusion 🏁
+
+In summary, this research project has achieved significant milestones and provided valuable insights into building energy consumption prediction:
+
+- Individual algorithms such as Extremely Randomized Trees, Random Forest, and Gradient Tree Boosting showed superior predictive performance with the lowest MAPE, RMSE, and Percentual values.
+
+- The ensemble model demonstrated improved results compared to the individual algorithms, achieving a lower MAPE, RMSE, and Percentual.
+
+- The proposed Heap-Based Optimization-Ensemble (HBO-Ensemble) algorithm outperformed all other approaches, including the ensemble model, by yielding the lowest MAPE, RMSE, and Percentual values.
+
+- The novel optimization technique used in the HBO-Ensemble algorithm significantly enhanced the accuracy of energy consumption predictions.
+
+- The study has expanded the horizons of applying machine learning algorithms for building energy consumption prediction, showcasing the potential for improved accuracy and efficiency.
+
+- Ensemble methods, including the HBO-Ensemble algorithm, have proven their effectiveness in achieving superior prediction accuracy.
+
+- The findings of this study are poised to have a profound impact on decision-making processes related to energy management and will facilitate the development of more effective and energy-efficient strategies for buildings.
+
+With these outcomes, we believe that the future of building energy consumption prediction holds exciting possibilities, and this research serves as a crucial stepping stone in that direction.
 
 ## Future Scope 🚀
 
@@ -49,17 +103,6 @@ The outcome of this comprehensive comparison underscores the prowess of HBO in e
 - **Energy Conservation Strategies**: Investigate the use of predicted consumption data for implementing energy conservation and demand response strategies.
 
 - **Scaling and Deployment**: Optimize the model for scalability and deployment in diverse building and energy management scenarios.
-
-## Presentation 📈
-
-Discover the insights and results of our research in our presentation slides: [Building_Energy_Prediction.pdf](https://github.com/dataclergy/Forecasting-Hourly-Energy-Consumption-with-Python/files/12541980/bems.pdf)
-
-## Usage Instructions 📝
-
-1. Access the presentation for detailed insights.
-2. Explore our optimized ensemble model and HBO approach.
-3. Review the code and data analysis to understand our methodology.
-4. Apply the lessons learned to your own energy consumption prediction projects.
 
 ## Acknowledgments 🙏
 
