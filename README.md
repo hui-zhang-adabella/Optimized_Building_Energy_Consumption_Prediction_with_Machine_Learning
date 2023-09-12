@@ -43,7 +43,7 @@ The project follows a structured methodology:
 - **Python File**: This directory contains the Jupyter Notebook file for data preprocessing and modeling.
   - [Data Preprocessing and Modelling.ipynb](Python%20File/Data%20Preprocessing%20and%20Modelling.ipynb): Jupyter Notebook with data preprocessing and modeling code.
 
-## Key Findings 📊
+## Findings from Research 📊
 
 The research yielded several key findings:
 
